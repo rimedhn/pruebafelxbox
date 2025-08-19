@@ -28,10 +28,10 @@
 }
 
 /* Estilos específicos para la altura de cada caja */
-.caja-1 { height: 80px; }
+.caja-1 { height: 60px; }
 .caja-2 { height: 120px; }
 .caja-3 { height: 60px; }
-.caja-4 { height: 90px; }
+.caja-4 { height: 60px; }
 
 /* Media query para hacer el diseño responsivo en pantallas más pequeñas */
 @media (max-width: 600px) {
