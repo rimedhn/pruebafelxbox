@@ -1,8 +1,8 @@
 /* Estilos para el contenedor principal */
 .contenedor-principal {
-  display: flex; /* Habilita el modo flex para los elementos hijos */
-  align-items: flex-end; /* Alinea las cajas en la parte inferior */
-  justify-content: space-around; /* Distribuye el espacio entre los elementos */
+  display: flex; 
+  align-items: flex-end; 
+  justify-content: space-around; 
   width: 100%;
   height: 300px;
   padding: 10px;
@@ -19,10 +19,11 @@
   font-size: 1.2rem;
   font-weight: bold;
   display: flex;
-  align-items: center;
+  align-items: left;
+  vertical-align: top;
   justify-content: center;
   border-radius: 8px;
-  margin: 0 5px; /* Pequeño margen horizontal entre cajas */
+  margin: 0 5px; 
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -35,11 +36,11 @@
 /* Media query para hacer el diseño responsivo en pantallas más pequeñas */
 @media (max-width: 600px) {
   .contenedor-principal {
-    flex-direction: column; /* Apila las cajas en pantallas pequeñas */
-    align-items: center; /* Centra las cajas en la columna */
+    flex-direction: column; 
+    align-items: center; 
     height: auto;
   }
   .caja {
-    margin: 10px 0; /* Más margen vertical en modo columna */
+    margin: 10px 0; 
   }
 }
