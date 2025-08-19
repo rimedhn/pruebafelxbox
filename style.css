@@ -33,14 +33,4 @@
 .caja-3 { height: 60px; }
 .caja-4 { height: 60px; }
 
-/* Media query para hacer el diseño responsivo en pantallas más pequeñas */
-@media (max-width: 600px) {
-  .contenedor-principal {
-    flex-direction: column; 
-    align-items: center; 
-    height: auto;
-  }
-  .caja {
-    margin: 10px 0; 
-  }
-}
+
